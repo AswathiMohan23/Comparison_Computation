@@ -26,8 +26,8 @@ public class UC2_Equality_of_Lengths {
         Integer length_of_First_Line = ((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
         Integer length_of_Second_Line = ((second_x2 - second_x1) ^ 2 + (second_y2 - second_y1) ^ 2);
         System.out.println("Length of the first line = " + length_of_First_Line+"\nLength of second line = "+length_of_Second_Line);
-        int result=length_of_First_Line.compareTo(length_of_Second_Line);
-        if(result==0)
+        Boolean result=length_of_First_Line.equals(length_of_Second_Line);
+        if(result==true)
             System.out.println("Length of the first line = length of second line");
         else
             System.out.println("Length of the first line not equal to length of second line");
