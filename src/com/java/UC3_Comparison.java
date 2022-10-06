@@ -15,7 +15,7 @@ public class UC3_Comparison {
         int x2 = EnterTheValues();
         int y1 = EnterTheValues();
         int y2 = EnterTheValues();
-        System.out.println("enter the co-ordinates of first line : ");
+        System.out.println("enter the co-ordinates of second line : ");
         int secondX1 = EnterTheValues();
         int secondX2 = EnterTheValues();
         int secondY1 = EnterTheValues();
