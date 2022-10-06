@@ -9,7 +9,6 @@ public class UC3_Comparison {
         int value = sc.nextInt();
         return value;
     }
-
     public static void main(String[] args) {
         System.out.println("enter the co-ordinates of first line : ");
         int x1 = EnterTheValues();
