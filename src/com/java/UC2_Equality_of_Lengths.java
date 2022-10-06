@@ -27,4 +27,5 @@ public class UC2_Equality_of_Lengths {
         int length_of_Second_Line = ((second_x2 - second_x1) ^ 2 + (second_y2 - second_y1) ^ 2);
         System.out.println("Length of the first line = " + length_of_First_Line+"\nLength of second line = "+length_of_Second_Line);
     }
+
 }
