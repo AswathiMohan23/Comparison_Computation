@@ -25,9 +25,9 @@ public class UC3_Comparison {
         Integer result=Comparison(length_of_First_Line, length_of_Second_Line);
         if (result == 0)
             System.out.println("Length of the first line = length of second line");
-        if (result < 0)
+        else if (result < 0)
             System.out.println("Length of the first line < length of second line");
-        if (result > 0)
+        else
             System.out.println("Length of the first line > length of second line");
     }
 
